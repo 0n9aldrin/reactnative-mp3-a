@@ -23,4 +23,12 @@ export const AppStyles = StyleSheet.create({
   body: {
     fontSize: 14,
   },
+  card: {
+    margin: 10,
+    borderRadius: 10,
+  },
+  cardContent: {
+    padding: 0,
+  },
+  cardCover: { padding: 0, borderTopLeftRadius: 50, borderTopRightRadius: 50 },
 });
